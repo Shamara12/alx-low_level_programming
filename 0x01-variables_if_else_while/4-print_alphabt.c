@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints all the letters of the alphabet except 'q' and 'e'.
+ * main - prints letters of the alphabet not 'q' and 'e'.
  *
- * Always Return 0.
+ * Return: Always 0.
  */
 
 int main(void)
