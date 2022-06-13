@@ -1,5 +1,7 @@
-#ifndef _holberton_h_
-#define _holberton_h_
+#ifndef MAIN_H
+#define MAIN_H
+
+#include <stdio.h>
 
 int _putchar(char);
 void print_alphabet(void);
