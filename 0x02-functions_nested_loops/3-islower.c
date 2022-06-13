@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _islower - prints 1 for uppercase and 0 for lowercase.
+ * _islower - prints 1 for lowercase and 0 for uppercase alphabets.
  * Return: Always 0.
  */
 
 int _islower(int c)
 {
-	if (c >= 97 && c < 123)
+	if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}
