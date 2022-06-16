@@ -2,7 +2,7 @@
 
 /**
  * _islower - prints 1 for lowercase and 0 for uppercase alphabets.
- * @c: is the letter in ASCII code.
+ * @c: stands for the letter in ASCII code.
  * Return: Always 0.
  */
 
