@@ -2,6 +2,7 @@
 
 /**
  * print_sign - indicates if a number entered is+, - or 0.
+ * @n: numerical character.
  * Return: Always 0.
  */
 
