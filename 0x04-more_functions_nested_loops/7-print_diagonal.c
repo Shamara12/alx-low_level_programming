@@ -21,10 +21,8 @@ void print_diagonal(int n)
 		for (i = 1; i <= n; ++i)
 		{
 			for (spc = 1; spc <= i; ++spc)
-			{
-				putchar(32);/*ASCII for space*/
-			}
-			putchar(92); /*ASCII for '\'*/
+				putchar(' ');
+			putchar(92);
 			putchar('\n');
 		}
 	}
