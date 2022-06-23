@@ -16,11 +16,11 @@ void print_diagonal(int n)
 		putchar('\n');
 	else
 	{
-		for (i = 1; i <= n; ++i)
+		for (i = 1; i <= n; i++)
 		{
-			for (spc = 1; spc <= i; ++spc)
+			for (spc = 1; spc <= i; spc++)
 				putchar(' ');
-			putchar(92); 
+			putchar(92);
 			putchar('\n');
 		}
 	}
