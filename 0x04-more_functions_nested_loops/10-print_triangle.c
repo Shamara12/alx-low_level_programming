@@ -5,7 +5,7 @@
  *
  * @size: number of times the character '#' is printed.
  *
- * Return: Always 0. 
+ * Return: Always 0.
  */
 
 void print_triangle(int size)
@@ -27,5 +27,4 @@ void print_triangle(int size)
 			putchar('\n');
 		}
 	}
-	putchar('\n');
 }
