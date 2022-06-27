@@ -4,7 +4,7 @@
  * puts_half - prints half of a string.
  *
  * @str: inpited string.
- * 
+ *
  * Return: no return.
  */
 
@@ -18,10 +18,10 @@ void puts_half(char *str)
 			break;
 		n++;
 	}
-	if (str[n] % 2 == 0)
+	if (str[n] % 2 == 1)
 		m = n / 2;
-	else if (str[n] % 2 == 1)
-		m = (n - 1) / 2;
+	else
+		m = (n - 1)  / 2;
 
 	for (m++; m < n; m++)
 		_putchar(str[m]);
