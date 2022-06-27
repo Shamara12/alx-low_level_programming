@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _puts2 - prints each character of a string on a new line.
+ * puts2 - prints each character of a string on a new line.
  *
- * str: inputed string.
+ * @str: inputed string.
  *
  * Return: no return.
  */
