@@ -20,7 +20,12 @@ char *cap_string(char *str)
 			{
 				str[a] -= 32;
 			}
-			if (str[a -1] == 32 || str[a - 1] == 9 || str[a - 1] == 44 || str[a - 1] == 59 || str[a - 1] == 46 || str[a - 1] == 33 || str[a - 1] == 34 || str[a - 1] == 63 || str[a - 1] == 40 || str[a - 1] == 41 || str[a - 1] == 123 || str[a - 1] == 125 || str[a - 1] == 10)
+			if (str[a -1] == 32 || str[a - 1] == 9 || 
+			str[a - 1] == 44 || str[a - 1] == 59 || 
+			str[a - 1] == 46 || str[a - 1] == 33 || 
+			str[a - 1] == 34 || str[a - 1] == 63 || 
+			str[a - 1] == 40 || str[a - 1] == 41 || 
+			str[a - 1] == 123 || str[a - 1] == 125 || str[a - 1] == 10)
 			{
 				str[a] -= 32;
 			}
